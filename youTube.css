@@ -1,0 +1,351 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body>div{
+    display: flex;
+}
+#LeftS{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+#RightS{
+    margin-left: 5px;
+    padding-top: 20px;
+}
+body>div>div:first-child{
+    /* border: 1px solid red; */
+    width: 16%;
+    height: 735px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+body>div>div:last-child{
+    /* border: 1px solid red; */
+    width: 84%;
+    height: 735px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+}
+#navbarR{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+#dots>div{
+    margin-top: -12px;
+}
+#navbarR>div:first-child{
+    width: 850px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#navbarR>div:first-child>input{
+    width: 600px;
+    height: 34px;
+}
+#navbarR>div:first-child>button{
+    border: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: white;
+}
+#navbarR>div:first-child img{
+    width: 30px;
+}
+#navbarR>div:last-child{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#dots+div{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    border: 1px solid blue;
+    padding: 7px;
+    justify-content: space-evenly;
+}
+#dots+div>img{
+    width: 20px;
+}
+#optn{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+}
+#optn a{
+    text-decoration: none;
+    color: black;
+}
+#optn>div{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 11px;
+}
+#lines{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+#Fline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+#Fline>div{
+    border: 2px solid black;
+    background-color: black;
+    width: 20px;
+}
+#Fline+a>img{
+    width: 150px;
+}
+#btns{
+    margin-top: 30px;
+}
+#btns>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#btns>div:hover{
+    background-color: rgb(195, 193, 193);
+}
+#btns>div:hover button{
+    background-color: rgb(195, 193, 193);
+}
+#btns img{
+    width: 30px;
+    margin-left: 10px;
+}
+#btns>div>button{
+    width: 180px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#HLbtns{
+    margin-top: 5px;
+}
+#HLbtns>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#HLbtns>div:hover{
+    background-color: rgb(195, 193, 193);
+}
+#HLbtns>div:hover button{
+    background-color: rgb(195, 193, 193);
+}
+#HLbtns img{
+    width: 30px;
+    margin-left: 10px;
+}
+#HLbtns>div>button{
+    width: 180px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#Lsng{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#Lsng>h5{
+    width: 170px;
+    font-size: 15px;
+}
+#Lsng>h5+div{
+    display: flex;
+    padding: 7px;
+    border: 1px solid blue;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+    margin-left: 25px;
+    color: blue;
+}
+#Lsng>h5+div>img{
+    width: 30px;
+}
+#more{
+    margin-top: 30px;
+}
+#more>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#more>div:hover{
+    background-color: rgb(195, 193, 193);
+}
+#more>div:hover button{
+    background-color: rgb(195, 193, 193);
+}
+#more img{
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#more>div>button{
+    width: 180px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#bro>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#bro>div>img{
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#bro>div:hover{
+    background-color: rgb(195, 193, 193);
+}
+#bro>div:hover button{
+    background-color: rgb(195, 193, 193);
+}
+#bro>div>button{
+    width: 180px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#set{
+    margin-top: 30px;
+}
+#set>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#set>div:hover{
+    background-color: rgb(195, 193, 193);
+}
+#set>div:hover button{
+    background-color: rgb(195, 193, 193);
+}
+#set img{
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#set>div>button{
+    width: 180px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#explore{
+    margin-top: 30px;
+}
+#explore>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#explore>div:hover{
+    background-color: rgb(195, 193, 193);
+}
+#explore>div:hover button{
+    background-color: rgb(195, 193, 193);
+}
+#explore img{
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#explore>div>button{
+    width: 180px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.tgs{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.tgs>a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+#dots+div{
+    height: 25px;
+}
+#bl{
+    color: blue;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,250px);
+    gap: 10px;
+    /* border: 1px solid red; */
+    padding-left: 40px;
+}
+#container>div>img{
+    width: 100%;
+    height: 160px;
+}
+#filtr>img{
+    width: 30px;
+    margin-left: 30px;
+}
+#optns{
+    border: 1px solid grey;
+    width: 1200px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#optns>div li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
