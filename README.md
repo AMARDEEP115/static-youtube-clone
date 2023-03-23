@@ -1,5 +1,5 @@
 # YouTube-Clone
- ## This is a clone of YouTube website, were we can see trending videos and can search any kind of videos. I have used google youtube api in this.
+ ## This project is a clone of YouTube website, were we can watch trending videos and can search any kind of videos, using google youtube api in this. Here you will be able to search  vides for anything and by default trending videos.
 
 # <a href="dulcet-chaja-b6c81e.netlify.app/">Live Preview »
 </a>
