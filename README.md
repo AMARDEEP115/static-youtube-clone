@@ -1,7 +1,8 @@
 # YouTube-Clone
  ## This is a clone of YouTube website, were we can see trending videos and can search any kind of videos. I have used google youtube api in this.
 
-# <a href="">Live</a>
+# <a href="dulcet-chaja-b6c81e.netlify.app/">Live Preview »
+</a>
 
 # Teach Stacks used :
   ## HTML | CSS | JavaScript
