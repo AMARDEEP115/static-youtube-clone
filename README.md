@@ -1,4 +1,4 @@
-# sYouTube-Clone
+# YouTube-Clone
 
 
 ![image](https://user-images.githubusercontent.com/105987614/227150702-d48f60f3-41ba-48ca-b5e5-5341ff908d79.png)
