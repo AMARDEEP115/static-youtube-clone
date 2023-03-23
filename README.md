@@ -1,13 +1,15 @@
 # YouTube-Clone
-## This is a clone of YouTube website, were we can see trending videos and can search any kind of videos. I have used google youtube api in this.
+ ## This is a clone of YouTube website, were we can see trending videos and can search any kind of videos. I have used google youtube api in this.
 
-#Teach Stacks used :
- ## HTML | CSS | JavaScript
+# <a href="">Live</a>
+
+# Teach Stacks used :
+  ## HTML | CSS | JavaScript
  
-#Features :
- ## Trending Videos
- ## Search Functionalities
- ## Filter and sorting
+# Features :
+  ## Trending Videos
+  ## Search Functionalities
+  ## Filter and sorting
 
 This is how webpages looks:
 
